@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+/* more headers goes there */
+/*betty style doc for function main goes there*/
 /**
  * main - Entry
  * Return: Always 0
@@ -9,7 +10,7 @@
 int main(void)
 {
 	int n;
-	int a;
+	int m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
